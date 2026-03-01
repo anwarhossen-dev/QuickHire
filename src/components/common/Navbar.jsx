@@ -3,50 +3,6 @@ import Button from "./Button";
 
 export default function Navbar() {
   return (
-    // <nav className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-    //   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    //     <div className="flex justify-between items-center h-16">
-    //       {/* Logo */}
-    //       <div className="flex items-center">
-    //         <Link href="/" className="text-3xl font-extrabold text-blue-600 tracking-tight">
-    //           QuickHire
-    //         </Link>
-    //       </div>
-
-    //       {/* Desktop menu */}
-    //       <div className="hidden md:flex items-center space-x-8">
-    //         <Link
-    //           href="/jobs"
-    //           className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-    //         >
-    //           Find Jobs
-    //         </Link>
-    //         <Link
-    //           href="/companies"
-    //           className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-    //         >
-    //           Browse Companies
-    //         </Link>
-
-    //         <div className="flex items-center space-x-3">
-    //           <Button variant="outline" size="sm">
-    //             Login
-    //           </Button>
-    //           <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-    //             Sign Up
-    //           </Button>
-    //         </div>
-    //       </div>
-
-    //       {/* Mobile menu button */}
-    //       <div className="md:hidden">
-    //         <Button variant="ghost" size="icon">
-    //           <span className="text-xl">☰</span>
-    //         </Button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </nav>
 
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
@@ -79,7 +35,7 @@ export default function Navbar() {
         {/* Auth buttons */}
         <div className="flex items-center gap-3">
           <Link
-            href="#"
+            href="/login"
             className="text-sm font-semibold text-[#3d4ef6] hover:underline hidden sm:inline-flex"
           >
             Login
